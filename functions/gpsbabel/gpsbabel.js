@@ -58,6 +58,7 @@ const convertFile = async (inType, fileName, inFileType, outType, count, distanc
   }
   params.push(`-o ${outType}`);
   params.push(`-F ${outFile}`);
+  console.log(params);
   return await (exec(params.join(' '))
     .then((result) => outFile)
     .catch((err) => false));
