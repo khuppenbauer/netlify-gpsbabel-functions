@@ -17,7 +17,7 @@ Content as Body in an POST Request
 ### Examples:
 **Method:** GET
 
- `/.netlify/functions/gpsbabel?infile=https://developers.google.com/kml/documentation/KML_Samples.kml&outtype=geojson&distance=8m&points=500`
+ `/.netlify/functions/gpsbabel?infile=https://developers.google.com/kml/documentation/KML_Samples.kml&outtype=geojson&distance=8m&count=500`
 
 **Query:**
 - `infile` - absolute URL to the input file
